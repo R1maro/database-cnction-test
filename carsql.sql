@@ -210,11 +210,11 @@ CREATE TABLE IF NOT EXISTS `last_inventry` (
 -- Dumping structure for table cargallery.publisher
 DROP TABLE IF EXISTS `publisher`;
 CREATE TABLE IF NOT EXISTS `publisher` (
-  `sl_no` int(255) NOT NULL AUTO_INCREMENT,
+  `id` int(255) NOT NULL AUTO_INCREMENT,
   `publisher_name` varchar(300) NOT NULL,
   `profile` varchar(1000) DEFAULT NULL,
   `added_on` varchar(100) DEFAULT NULL,
-  PRIMARY KEY (`sl_no`)
+  PRIMARY KEY (`id`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=706 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
