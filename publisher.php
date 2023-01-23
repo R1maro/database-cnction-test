@@ -15,7 +15,7 @@ $publishers = $stm->fetchAll();
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <link rel="stylesheet" href="css/style.css">
     <title>Publisher</title>
 </head>
 <body>
@@ -67,6 +67,6 @@ $publishers = $stm->fetchAll();
     <i>♥</i> by
     <a target="_blank" href="https://github.com/R1maro">R!maro</a>
 </div>
-
+<script src="js/js.js">
     </body>
     </html>
